@@ -1,4 +1,3 @@
-
 :root {
     --primaryColor: #be9c79;
     --secondaryColor: #212529;
@@ -9,19 +8,21 @@
     --ffPrimary: "Nunito Sans", serif;
     --ffSecondary: "Merienda", serif;
 }
-.btn-primary{
-    background-color: #be9c79;
-     font-family: "Nunito", sans-serif;
+
+.menu .btn-primary {
+    background-color:#be9c79 ;
+    border: 1px;
+    transition: background-color 0.3s ease;
 }
 
-.btn:hover {
+.menu .btn-primary:hover {
     background-color: #212529;
-    color: #fff;
 }
 
-h2{
+h2 {
     font-family: "Merienda", serif;
 }
-p{
-  font-family: "Nunito", sans-serif;
+
+p {
+    font-family: "Nunito", sans-serif;
 }
