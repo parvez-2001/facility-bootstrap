@@ -1,0 +1,13 @@
+:root {
+    --primaryColor: #be9c79;
+    --secondaryColor: #212529;
+    --darkColor: #212529;
+    --lightColor: #ffffff;
+    --regularFont: 1.6rem;
+    --headingFont: 2.5rem;
+    --ffPrimary: "Nunito Sans", serif;
+    --ffSecondary: "Merienda", serif;
+}
+.btn-primary{
+    background-color: #be9c79;
+}
