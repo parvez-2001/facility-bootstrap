@@ -10,19 +10,18 @@
 }
 
 .menu .btn-primary {
-    background-color:#be9c79 ;
+  background-color: var(--primaryColor);
     border: 1px;
-    transition: background-color 0.3s ease;
 }
 
 .menu .btn-primary:hover {
-    background-color: #212529;
+ background-color: var(--darkColor);
 }
 
 h2 {
-    font-family: "Merienda", serif;
+font-family: var(--ffSecondary);
 }
 
 p {
-    font-family: "Nunito", sans-serif;
+    font-family: var(--ffPrimary);
 }
